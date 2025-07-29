@@ -1,7 +1,7 @@
-tags
-test.sh
-.luarc.json
-nvim
-
-spell/
-lazy-lock.json
+*.swp
+*~
+luac.out
+site/
+plugin/packer_compiled.lua
+# Optional: ignore personal settings
+lua/local.lua
