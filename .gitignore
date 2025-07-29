@@ -1,7 +1,27 @@
+# Vim/Neovim temp and backup
 *.swp
 *~
 luac.out
-site/
-plugin/packer_compiled.lua
-# Optional: ignore personal settings
+
+# Local settings
 lua/local.lua
+
+# Plugin managers
+plugin/packer_compiled.lua     # Packer (remove if using Lazy.nvim)
+lazy-lock.json                 # Lazy.nvim plugin lock file
+lazy/                          # Lazy.nvim state
+
+# Mason (LSP, formatters)
+mason/
+
+# Treesitter state
+*.so
+
+# Health + LSP
+lsp.log
+
+# Misc
+site/
+**/.netrwhist
+.luarc.json
+.luarc.jsonc
